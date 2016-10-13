@@ -31,21 +31,21 @@ The data can be found within the following three CSV files:
 
 ### phones.csv
 
-| Column       | Description                                  |
-|--------------|----------------------------------------------|
-| phone_id     | Unique identifier for phone studied          |
-| manufacturer | |
-| model        |
-| soc          |
-| process      |
-| cpu          |
-| cores        |
-| frequency    |
-| l0_cache     |
-| l1_cache     |
-| l2_cache     |
-| ram          |
-| os           |
+| Column       | Description                                     |
+|--------------|-------------------------------------------------|
+| phone_id     | Unique identifier for phone studied             |
+| manufacturer | Phone manufacturer                              |
+| model        | Phone model name                                |
+| soc          | System-on-Chip                                  |
+| process      | Process technology node                         |
+| cpu          | CPU design                                      |
+| cores        | Number of CPU cores (big/LITTLE when necessary) |
+| frequency    | Peak CPU operating frequency (we observed)      |
+| l0_cache     | L0 cache size (instruction/data)                |
+| l1_cache     | L1 cache size (instruction/data)                |
+| l2_cache     | L2 cache size (instruction/data)                |
+| ram          | DRAM size and technology                        |
+| os           | Android OS version                              |
 
 ### perf.csv
 
